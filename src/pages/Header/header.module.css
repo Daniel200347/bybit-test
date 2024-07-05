@@ -1,0 +1,22 @@
+.left {
+    display: flex;
+    align-items: center;
+    gap: 72px;
+    padding: 18px;
+}
+
+.sizeButton {
+    padding: 6px 16px !important;
+}
+
+.headerWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px 0 25px;
+
+}
+
+.color {
+    background: #17181E;
+}

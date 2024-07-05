@@ -1,0 +1,82 @@
+.footer {
+    background: #F5F7FA;
+    padding: 60px 0;
+
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.container {
+    padding: 24px 0;
+
+}
+
+.confidentialityWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.confidentiality {
+    color: #0C0E1266;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.description {
+    color: #17181E;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+
+.description:hover {
+    color: #D6850D;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+
+.anchorWrapper {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+
+.icon {
+    cursor: pointer;
+}
+
+.text {
+    color: #17181E;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.text:hover {
+    color: #D6850D;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s ease;
+}

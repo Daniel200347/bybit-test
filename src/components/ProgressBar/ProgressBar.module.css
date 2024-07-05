@@ -1,0 +1,123 @@
+.progressBar {
+    position: relative;
+    width: 100%;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.5) 100%), #FFB11A;
+    border-radius: 9999px;
+    width: 100%;
+    border-left: 1px solid #D6850D;
+    border-right: 1px solid #D6850D;
+    border-bottom: 1px solid #D6850D;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.wrapperText {
+    display: flex;
+    width: 100%;
+    padding-left: 8px;
+}
+
+.firstPercent {
+    font-size: 18px;
+    font-weight: 500;
+    position: absolute;
+    top: -30px;
+    left: 8px;
+}
+
+.percent {
+    font-size: 18px;
+    font-weight: 500;
+    position: absolute;
+    top: -30px;
+    display: none;
+}
+
+.week1Percent {
+    top: -30px;
+    right: -32px;
+}
+
+.week2Percent {
+    top: -30px;
+    right: -38px;
+}
+
+.week3Percent {
+    top: -30px;
+    right: -42px;
+}
+
+.week4Percent {
+    top: -30px;
+    right: 6px;
+}
+
+.text {
+    font-size: 18px;
+    font-weight: 600;
+    color: #17181E;
+    padding: 12px 16px;
+    box-sizing: border-box;
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+}
+.text:hover {
+    font-size: 18px;
+    font-weight: 600;
+    color: #17181E;
+    padding: 12px 16px;
+    box-sizing: border-box;
+    position: relative;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.7) 100%);
+    transition: 0.7s;
+
+}
+
+.percentWrapper {
+    position: relative;
+    border-left: 1px solid #D6850D;
+}
+
+.percentWrapper:first-child {
+    border: none;
+}
+
+.percentWrapper:hover .text::after, .firstText::after {
+    content: '';
+    position: absolute;
+    top: -30px;
+    right: -1px;
+    border-right: 1px solid #D6850D;
+    height: 56px;
+}
+
+.firstText::after {
+    top: -30px;
+    left: -1px;
+    border-right: none;
+    border-left: 1px solid #D6850D;
+}
+
+/* Показываем соответствующий процент при наведении */
+.percentWrapper:nth-child(1):hover .week1Percent {
+    display: block;
+}
+
+.percentWrapper:nth-child(2):hover .week2Percent {
+    display: block;
+}
+
+.percentWrapper:nth-child(3):hover .week3Percent {
+    display: block;
+}
+
+.percentWrapper:nth-child(4):hover .week4Percent {
+    display: block;
+}

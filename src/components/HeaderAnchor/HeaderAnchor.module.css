@@ -1,0 +1,35 @@
+
+.li {
+    list-style-type: none;
+}
+
+.title {
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.title:hover {
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFB11A;
+}
+
+.line {
+    width: 2px;
+    height: 20px;
+    background: #404347;
+}
+
+.titleWrapper {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.link {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+

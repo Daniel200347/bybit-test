@@ -1,0 +1,100 @@
+.personalTask {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 100px 0;
+    gap: 20px;
+}
+
+.wrapper {
+
+}
+
+.textWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.button {
+    margin-top: 40px
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+}
+
+.infoCard {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 470px;
+    border-top: 1px solid #17181E1F;
+    padding: 20px 0;
+}
+
+.modal {
+    max-width: 450px !important;
+    height: auto !important;
+    overflow: auto !important;
+    z-index: 10;
+}
+
+
+.modalFirst {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 0 0 0;
+    font-size: 16px;
+    font-weight: 500;
+    color: #0C0E1266;
+}
+
+.infoTitle {
+    font-size: 18px;
+    font-weight: 500;
+    color: #0C0E1266;
+}
+
+
+.link {
+    color: #D6850D;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+
+.title {
+    color: #17181E;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+}
+
+.description {
+    font-size: 20px;
+    font-weight: 500;
+    color: #0C0E1266;
+}
+
+@media (max-width: 1000px) {
+    .personalTask {
+        flex-direction: column;
+    }
+
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .infoCard{
+        max-width: 100%;
+    }
+}
+

@@ -1,0 +1,45 @@
+.statistic {
+    background: #FFFFFF;
+    padding: 60px 0;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.title {
+    font-size: 32px;
+    font-weight: 600;
+    color: #17181E;
+}
+
+.description {
+    color: #0C0E1266;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    text-align: center;
+}
+
+.cardWrapper {
+    display: flex;
+    gap: 60px;
+    justify-content: space-between;
+}
+@media (max-width: 1000px) {
+    .cardWrapper{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 50px;
+    }
+}
+@media (max-width: 640px) {
+    .cardWrapper{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+}

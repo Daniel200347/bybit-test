@@ -1,0 +1,59 @@
+.description {
+    font-size: 18px;
+    font-weight: 500;
+    color: #0C0E1266;
+    line-height: 24px;
+}
+
+.accordion {
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.accordionHeader {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    cursor: pointer;
+    padding: 20px;
+}
+
+.accordionTitle {
+    font-size: 24px;
+    font-weight: 600;
+    color: #17181E;
+}
+
+.accordionContent {
+    overflow: hidden;
+    background: #FFFFFF;
+}
+
+.accordionTextWrapper {
+    padding: 0 20px 20px 20px;
+}
+
+.title {
+    color: #17181E;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.accordionText h3 {
+    margin-top: 0;
+}
+
+.open {
+    max-height: 1000px;
+}
+
+.closed {
+    max-height: 0;
+}
+
+@media (max-width: 640px) {
+    .accordionTitle{
+        font-size: 18px;
+        line-height: 24px;
+    }
+}
