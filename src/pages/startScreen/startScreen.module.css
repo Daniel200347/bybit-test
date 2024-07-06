@@ -22,22 +22,10 @@
     position: relative;
     background-image: url("/public/images/laptop.png");
     background-repeat: no-repeat;
-    background-size: 90%;
+    background-size: 71%;
     background-position-y: bottom;
-    background-position-x: 298px;
+    background-position-x: 569px;
 }
-
-
-/*.color {*/
-/*    background-color: #0C0E12;*/
-/*    padding: 100px 0;*/
-/*    position: relative;*/
-/*    background-image: url("/public/images/laptop.png");*/
-/*    background-repeat: no-repeat;*/
-/*    background-size: 72%;*/
-/*    background-position-y: bottom;*/
-/*    background-position-x: 564px;*/
-/*}*/
 
 .description {
     color: #FFFFFF;
@@ -79,10 +67,78 @@
 
 }
 
-/*1200 брейк поинт*/
 .image {
     min-width: 1250px;
     min-height: 470px;
     position: absolute;
     top: -20px;
+}
+
+@media (max-width: 1440px) {
+    .color {
+        background-color: #0C0E12;
+        padding: 100px 0;
+        position: relative;
+        background-image: url("/public/images/laptop.png");
+        background-repeat: no-repeat;
+        background-size: 90%;
+        background-position-y: bottom;
+        background-position-x: 298px;
+    }
+}
+@media (max-width: 1050px) {
+    .color {
+        background-color: #0C0E12;
+        padding: 60px 0 0 0;
+        position: relative;
+        background-image: url("/public/images/laptop.png");
+        background-repeat: no-repeat;
+        background-size: 90%;
+        background-position-y: bottom;
+        background-position-x: center;
+    }
+    .wrapper{
+        display: flex;
+        position: relative;
+        justify-content: center;
+        padding-bottom: 436px;
+    }
+
+}
+@media (max-width: 900px) {
+    .color {
+        background-size: 100%;
+    }
+
+}
+@media (max-width: 768px) {
+    .color {
+        background-size: 132%;
+    }
+    .left{
+        padding-top: 0;
+    }
+    .title{
+        background-size: 132%;
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 40px;
+    }
+    .description{
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 28px;
+    }
+
+}@media (max-width: 640px) {
+    .color {
+        background-size: 164%;
+    }
+
+}
+@media (max-width: 400px) {
+    .color {
+        background-size: 176%;
+    }
+
 }

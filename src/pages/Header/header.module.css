@@ -1,3 +1,15 @@
+.color {
+    background: #17181E;
+}
+
+.headerWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 12px 24px;
+}
+
 .left {
     display: flex;
     align-items: center;
@@ -5,18 +17,120 @@
     padding: 18px;
 }
 
+.active {
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 10;
+}
+
+.burgerButton {
+    display: none;
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #FFFFFF66;
+}
+
 .sizeButton {
     padding: 6px 16px !important;
 }
 
-.headerWrapper {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 25px 0 25px;
-
+.li {
+    list-style-type: none;
 }
 
-.color {
-    background: #17181E;
+.title {
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.title:hover {
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFB11A;
+}
+
+.line {
+    width: 2px;
+    height: 20px;
+    background: #404347;
+}
+
+.titleWrapper {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.link {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 1000px) {
+    .headerWrapper {
+        padding: 12px 8px;;
+    }
+
+    .left {
+        gap: 0;
+    }
+
+    .line {
+        display: none !important;
+    }
+
+    .burgerButton {
+        display: block;
+    }
+
+    .isActiveWrapper {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
+    }
+
+    .active {
+        display: block;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: white;
+        z-index: 10;
+    }
+
+    .titleWrapper {
+        display: none;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 24px;
+        padding-top: 32px;
+        background-color: #17181E;
+        gap: 16px;
+        height: 98vh;
+        overflow: hidden;
+        position: fixed;
+        width: 100vw;
+        left: 0;
+        top: 58px;
+    }
+
+    .burgerMenu {
+        display: none;
+        position: fixed;
+    }
+
+    .isActive {
+        display: flex;
+        z-index: 99;
+    }
 }

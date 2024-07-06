@@ -1,10 +1,9 @@
-'use client'
 import React, {useState, useEffect} from 'react';
 import * as platform from 'platform';
-import classes from "./DetectButton.module.css";
+import classes from "./Button.module.css";
 import classNames from "classnames";
 
-const DetectButton = ({className, buttonSize, btnText, forceActive}) => {
+const Button = ({className, buttonSize, btnText, forceActive}) => {
     const [isWindows, setIsWindows] = useState(false);
     const [osName, setOsName] = useState('');
 
@@ -35,10 +34,10 @@ const DetectButton = ({className, buttonSize, btnText, forceActive}) => {
                 disabled={!isWindows}
                 onClick={handleDownload}
             >
-                {isWindows ? btnText: 'Only Windows'}
+                Claim
             </button>
         </div>
     );
 };
 
-export default DetectButton;
+export default Button;

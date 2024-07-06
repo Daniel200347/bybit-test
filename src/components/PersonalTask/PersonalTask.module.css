@@ -93,7 +93,8 @@
         justify-content: center;
         align-items: center;
     }
-    .infoCard{
+
+    .infoCard {
         max-width: 100%;
     }
 }

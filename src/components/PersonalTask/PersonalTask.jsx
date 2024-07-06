@@ -28,7 +28,7 @@ function PersonalTask() {
     }
 
     return <div className={classes.personalTask}>
-        <div style={{paddingBottom:24}}>
+        <div style={{paddingBottom: 24}}>
             <div className={classes.wrapper}>
                 <div className={classes.textWrapper}><h3 className={classes.title}>Personal Tasks</h3>
                     <p className={classes.description}>Claim rewards by completing tasks</p>
@@ -50,7 +50,7 @@ function PersonalTask() {
                 </div>
             </div>
         </div>
-       <GiftSection/>
+        <GiftSection/>
         {modalFirst && (
             <Modal
                 className={classes.modal}

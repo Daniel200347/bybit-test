@@ -1,6 +1,7 @@
 import classes from "./GiftSection.module.css";
 import gift from "../../icons/gift.svg";
 import DetectButton from "../DetectButton/DetectButton";
+import Button from "../Button/Button";
 
 function Card({ bonusPercent, bonusDescription, imgSrc, depositTitle, progress, isClaimed, progressText }) {
     return (
@@ -24,7 +25,7 @@ function Card({ bonusPercent, bonusDescription, imgSrc, depositTitle, progress, 
                         <p className={classes.progress}>{progressText}</p>
                     </div>
                 </div>
-                <DetectButton forceActive={isClaimed} btnText="claim" buttonSize={classes.buttonSize} />
+                <Button forceActive={isClaimed} btnText="Claim" buttonSize={classes.buttonSize} />
             </div>
         </div>
     );

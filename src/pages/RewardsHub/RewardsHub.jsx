@@ -7,7 +7,7 @@ import PersonalTask from "../../components/PersonalTask/PersonalTask";
 function RewardsHub() {
     return <div className={classes.color}>
         <Wrapper className={classes.wrapper}>
-            <div className={classes.container}>
+            <div id="#Reward" className={classes.container}>
                 <div className={classes.textWrapper}>
                     <h1 className={classes.title}>Introducing the Rewards Hub for Bybit Desktop</h1>
                     <p className={classes.description}>Celebrate the release of Bybit Desktop Application with us and
@@ -18,7 +18,7 @@ function RewardsHub() {
                     <div className={classes.visible}><ProgressBar/></div>
                     <CardSlider/></section>
             </div>
-            <PersonalTask/>
+            <section id="#PersonalTask"><PersonalTask/></section>
         </Wrapper>
     </div>
 }

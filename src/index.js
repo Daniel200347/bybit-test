@@ -16,25 +16,25 @@ import Footer from "./pages/Footer/Footer";
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <React.StrictMode>
-        {/*<Header/>*/}
-        {/*<section id="start-screen">*/}
-        {/*    <StartScreen/>*/}
-        {/*</section>*/}
+        <Header/>
+        <section id="start-screen">
+            <StartScreen/>
+        </section>
         <section id="rewards-hub">
             <RewardsHub/>
         </section>
-        {/*<section id="bonus">*/}
-        {/*    <Bonus/>*/}
-        {/*</section>*/}
-        {/*<section id="faq">*/}
-        {/*    <Faq/>*/}
-        {/*</section>*/}
-        {/*<section id="offer">*/}
-        {/*    <Offer/>*/}
-        {/*</section>*/}
-        {/*<section id="statistic">*/}
-        {/*    <Statistic/>*/}
-        {/*</section>*/}
-        {/*<Footer/>*/}
+        <section id="bonus">
+            <Bonus/>
+        </section>
+        <section id="faq">
+            <Faq/>
+        </section>
+        <section id="offer">
+            <Offer/>
+        </section>
+        <section id="statistic">
+            <Statistic/>
+        </section>
+        <Footer/>
     </React.StrictMode>
 );

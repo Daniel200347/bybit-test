@@ -1,25 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.4ad0d8d2.css",
-    "main.js": "/static/js/main.f199c868.js",
+    "main.css": "/static/css/main.1c69d650.css",
+    "main.js": "/static/js/main.1f22d526.js",
     "static/media/laptop.png": "/static/media/laptop.6765544a577eb8fb28ae.png",
     "static/media/gift.svg": "/static/media/gift.41e9b13064946aa31aef04e58b87e3e5.svg",
     "static/media/instagram.svg": "/static/media/instagram.0385fdc1d4f823f6f9a7ace9f539b32d.svg",
     "static/media/logoFooter.svg": "/static/media/logoFooter.e06ffafbfc52f5b7c3e06466a5b1ad72.svg",
     "static/media/linkedin.svg": "/static/media/linkedin.ea1f62409202e71304bf87fc34aa762a.svg",
     "static/media/close.svg": "/static/media/close.1a873f9478f4fc3ac8fbbb0ab2fd04ab.svg",
+    "static/media/closeBurger.svg": "/static/media/closeBurger.375f4c2f0184590299ce94f42f25f20d.svg",
+    "static/media/burgerMenu.svg": "/static/media/burgerMenu.dbd1c1c613fe0ff31391a3385f1860a7.svg",
     "static/media/xTwitter.svg": "/static/media/xTwitter.82f86f01b13db1c5c764c415286af714.svg",
     "static/media/facebook.svg": "/static/media/facebook.855b1c00828331c56afb1a8158bc3607.svg",
     "static/media/arrowNext.svg": "/static/media/arrowNext.77d9d80d9655aceab3a18ec4b02bffef.svg",
     "static/media/arrowPre.svg": "/static/media/arrowPre.b570dcbc76e1ff6089b3562beaf49480.svg",
-    "index.html": "/index.html",
     "static/media/plus.svg": "/static/media/plus.54d99faea48564283da71b4ab9ebad9d.svg",
+    "index.html": "/index.html",
     "static/media/minus.svg": "/static/media/minus.ad5e91a4d33541a75699c26c73721660.svg",
-    "main.4ad0d8d2.css.map": "/static/css/main.4ad0d8d2.css.map",
-    "main.f199c868.js.map": "/static/js/main.f199c868.js.map"
+    "main.1c69d650.css.map": "/static/css/main.1c69d650.css.map",
+    "main.1f22d526.js.map": "/static/js/main.1f22d526.js.map"
   },
   "entrypoints": [
-    "static/css/main.4ad0d8d2.css",
-    "static/js/main.f199c868.js"
+    "static/css/main.1c69d650.css",
+    "static/js/main.1f22d526.js"
   ]
 }
