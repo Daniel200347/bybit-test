@@ -11,6 +11,7 @@ import Faq from "./pages/Faq/Faq";
 import Offer from "./pages/Offer/Offer";
 import Statistic from "./pages/Statistic/Statistic";
 import Footer from "./pages/Footer/Footer";
+import PersonalTask from "./components/PersonalTask/PersonalTask";
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -20,9 +21,10 @@ root.render(
         <section id="start-screen">
             <StartScreen/>
         </section>
-        <section id="rewards-hub">
+        <section id="rewards">
             <RewardsHub/>
         </section>
+        <section id="task"><PersonalTask/></section>
         <section id="bonus">
             <Bonus/>
         </section>

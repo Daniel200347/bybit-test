@@ -12,6 +12,7 @@
     transition: background-color 0.2s;
     background: #FFB11A;
     border-radius: 8px;
+    width: 100%;
 }
 
 .buttonActive:hover {
@@ -35,5 +36,6 @@
     border-radius: 8px;
     opacity: 25%;
     pointer-events: none;
+    width: 100%;
 }
 

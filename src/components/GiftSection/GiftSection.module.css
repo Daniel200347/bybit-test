@@ -21,11 +21,22 @@
     color: #17181E;
 }
 
-.card {
+.desctopCard {
     position: relative;
     display: flex;
     padding: 12px 12px 12px 24px;
     gap: 70px;
+    border-radius: 12px;
+    align-items: center;
+    background: #F5F7FA;
+}
+
+.mobileCard {
+    position: relative;
+    display: flex;
+    padding: 16px;
+    flex-direction: column;
+    gap: 24px;
     border-radius: 12px;
     align-items: center;
     background: #F5F7FA;
@@ -71,6 +82,12 @@
     min-width: 210px;
 }
 
+.lineMobile {
+    position: relative;
+    width: 100%;
+    max-width: 195px;
+}
+
 .lineWrapper {
 }
 
@@ -95,7 +112,7 @@
     font-size: 14px;
     font-weight: 500;
     color: #0C0E1266;
-    margin-top: 8px;
+    margin-top: 12px;
 }
 
 .contentTitle {
@@ -113,18 +130,54 @@
     padding: 6px 16px 6px 16px !important;
 }
 
-.bonus {
+.buttonMobile {
+    width: 100%;
 }
 
+.bonusMobile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.mobileCardInActive {
+    display: flex;
+}
 
 @media (max-width: 1000px) {
     .giftSection {
         max-width: 100%;
     }
 }
+
 @media (max-width: 640px) {
+
+    .lineMobile {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .content {
+        width: 100%;
+    }
+
     .giftSection {
         max-width: 100%;
         flex-direction: column;
+    }
+
+    .desctopCardInActive {
+        display: none;
+    }
+
+    .giftSection {
+        padding: 16px;
+    }
+}
+
+@media (min-width: 640px) {
+    .mobileCardInActive {
+        display: none;
     }
 }

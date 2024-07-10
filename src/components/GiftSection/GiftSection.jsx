@@ -2,32 +2,61 @@ import classes from "./GiftSection.module.css";
 import gift from "../../icons/gift.svg";
 import DetectButton from "../DetectButton/DetectButton";
 import Button from "../Button/Button";
+import classNames from "classnames";
 
-function Card({ bonusPercent, bonusDescription, imgSrc, depositTitle, progress, isClaimed, progressText }) {
+function Card({bonusPercent, bonusDescription, imgSrc, depositTitle, progress, isClaimed, progressText}) {
     return (
-        <div className={classes.card}>
-            <div className={classes.bonus}>
-                <h3 className={classes.bonusPercent}>{bonusPercent}</h3>
-                <p className={classes.bonusDescription}>{bonusDescription}</p>
-            </div>
-            <img className={classes.img} src={imgSrc} />
-            <div className={classes.contentWrapper}>
-                <div className={classes.content}>
-                    <div>
-                        <h4 className={classes.contentTitle}>{depositTitle}</h4>
-                        <div className={classes.inputWrapper}></div>
-                    </div>
-                    <div className={classes.lineWrapper}>
-                        <div className={classes.line}>
-                            <div className={classes.orangeLine} style={{ width: `${progress}%` }}></div>
-                            <div className={classes.grayLine}></div>
+        <>
+            <div className={classNames(classes.desctopCard, classes.desctopCardInActive)}>
+                <div className={classes.bonus}>
+                    <h3 className={classes.bonusPercent}>{bonusPercent}</h3>
+                    <p className={classes.bonusDescription}>{bonusDescription}</p>
+                </div>
+                <img className={classes.img} src={imgSrc}/>
+                <div className={classes.contentWrapper}>
+                    <div className={classes.content}>
+                        <div>
+                            <h4 className={classes.contentTitle}>{depositTitle}</h4>
+                            <div className={classes.inputWrapper}></div>
                         </div>
-                        <p className={classes.progress}>{progressText}</p>
+                        <div className={classes.lineWrapper}>
+                            <div className={classes.line}>
+                                <div className={classes.orangeLine} style={{width: `${progress}%`}}></div>
+                                <div className={classes.grayLine}></div>
+                            </div>
+                            <p className={classes.progress}>{progressText}</p>
+                        </div>
+                    </div>
+                    <Button forceActive={isClaimed} btnText="Claim" buttonSize={classes.buttonSize}/>
+                </div>
+            </div>
+
+
+            <div className={classNames(classes.mobileCard, classes.mobileCardInActive)}>
+                <div className={classes.bonusMobile}>
+                    <div>
+                        <h3 className={classes.bonusPercent}>{bonusPercent}</h3>
+                        <p className={classes.bonusDescription}>{bonusDescription}</p>
+                    </div>
+                    <img src={imgSrc}/></div>
+                <div className={classes.contentWrapper}>
+                    <div className={classes.content}>
+                        <div>
+                            <h4 className={classes.contentTitle}>{depositTitle}</h4>
+                            <div className={classes.inputWrapper}></div>
+                        </div>
+                        <div className={classes.lineWrapper}>
+                            <div className={classes.lineMobile}>
+                                <div className={classes.orangeLine} style={{width: `${progress}%`}}></div>
+                                <div className={classes.grayLine}></div>
+                            </div>
+                            <p className={classes.progress}>{progressText}</p>
+                        </div>
                     </div>
                 </div>
-                <Button forceActive={isClaimed} btnText="Claim" buttonSize={classes.buttonSize} />
+                <Button className={classes.buttonMobile} forceActive={isClaimed} btnText="Claim" buttonSize={classes.buttonSize}/>
             </div>
-        </div>
+        </>
     );
 }
 

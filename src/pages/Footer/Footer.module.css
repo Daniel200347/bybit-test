@@ -10,13 +10,23 @@
     align-items: center;
 }
 
+.section {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.footerContent {
+
+}
+
 .logo {
     cursor: pointer;
 }
 
 .container {
+    background: #FFFFFF;
     padding: 24px 0;
-
 }
 
 .confidentialityWrapper {
@@ -79,4 +89,40 @@
     font-weight: 500;
     cursor: pointer;
     transition: 0.3s ease;
+}
+
+@media (max-width: 1000px) {
+    .footerDesktop {
+        display: none;
+    }
+
+    .anchorWrapper {
+        flex-direction: column;
+        gap: 16px;
+        text-align: left;
+        align-items: unset;
+    }
+
+    .wrapper {
+        align-items: flex-start;
+    }
+}
+
+@media (max-width: 640px) {
+    .wrapper {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .confidentialityWrapper{
+        flex-direction: column;
+        gap: 16px;
+        align-items: flex-start;
+    }
+}
+
+@media (min-width: 1000px) {
+    .footerMobile {
+        display: none;
+    }
 }

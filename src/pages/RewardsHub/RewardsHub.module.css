@@ -59,3 +59,15 @@
         line-height: 40px;
     }
 }
+
+@media (max-width: 640px) {
+
+    .stepRewards{
+        padding: 16px;
+    }
+
+    .description{
+        font-size: 18px;
+        line-height: 24px;
+    }
+}

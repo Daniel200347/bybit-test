@@ -18,7 +18,7 @@ function RewardsHub() {
                     <div className={classes.visible}><ProgressBar/></div>
                     <CardSlider/></section>
             </div>
-            <section id="#PersonalTask"><PersonalTask/></section>
+
         </Wrapper>
     </div>
 }

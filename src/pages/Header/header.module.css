@@ -1,5 +1,10 @@
 .color {
     background: #17181E;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    width: 100%;
 }
 
 .headerWrapper {
@@ -116,7 +121,7 @@
         padding-top: 32px;
         background-color: #17181E;
         gap: 16px;
-        height: 98vh;
+        height: 100vh;
         overflow: hidden;
         position: fixed;
         width: 100vw;

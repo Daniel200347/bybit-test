@@ -99,3 +99,20 @@
     }
 }
 
+@media (max-width: 640px) {
+
+    .textWrapper{
+        text-align: center;
+    }
+
+    .title {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .description {
+        font-size: 18px;
+        line-height: 24px;
+    }
+}
+
