@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/bybit-test/static/css/main.aef7fa4a.css",
+    "main.css": "/bybit-test/static/css/main.9d6ddcb9.css",
     "main.js": "/bybit-test/static/js/main.8fbd0484.js",
-    "static/media/laptop.png": "/bybit-test/static/media/laptop.6765544a577eb8fb28ae.png",
+    "static/media/laptop.png": "/bybit-test/static/media/laptop.347dce011846a46bdca2.png",
     "static/media/gift.svg": "/bybit-test/static/media/gift.41e9b13064946aa31aef04e58b87e3e5.svg",
     "static/media/instagram.svg": "/bybit-test/static/media/instagram.0385fdc1d4f823f6f9a7ace9f539b32d.svg",
     "static/media/logoFooter.svg": "/bybit-test/static/media/logoFooter.e06ffafbfc52f5b7c3e06466a5b1ad72.svg",
@@ -17,11 +17,11 @@
     "static/media/arrowPre.svg": "/bybit-test/static/media/arrowPre.b570dcbc76e1ff6089b3562beaf49480.svg",
     "static/media/plus.svg": "/bybit-test/static/media/plus.54d99faea48564283da71b4ab9ebad9d.svg",
     "static/media/minus.svg": "/bybit-test/static/media/minus.ad5e91a4d33541a75699c26c73721660.svg",
-    "main.aef7fa4a.css.map": "/bybit-test/static/css/main.aef7fa4a.css.map",
+    "main.9d6ddcb9.css.map": "/bybit-test/static/css/main.9d6ddcb9.css.map",
     "main.8fbd0484.js.map": "/bybit-test/static/js/main.8fbd0484.js.map"
   },
   "entrypoints": [
-    "static/css/main.aef7fa4a.css",
+    "static/css/main.9d6ddcb9.css",
     "static/js/main.8fbd0484.js"
   ]
 }
